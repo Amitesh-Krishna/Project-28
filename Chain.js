@@ -2,7 +2,7 @@ class Chain{
 
     constructor(objA,pointB) {
         
-        var options = {bodyA:objA.body,pointB:pointB,stiffness:0.05,length:3}
+        var options = {bodyA:objA.body,pointB:pointB,stiffness:0.05,length:1}
 
         this.posA = objA.body.position;
         this.posB = pointB;
